@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <link rel="stylesheet" href="styleshets/ideal-image-slider.css">
+    <link rel="stylesheet" href="stylesheets/ideal-image-slider.css">
     <link rel="stylesheet" href="stylesheets/themes/default/default.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -23,13 +23,27 @@
         <p></p>
       </header>
       <section>
+        <div id="slider">
+          <img src="images/meadow/exterior.jpg" alt="Front house">
+          <img data-src="images/meadow/living.jpg" src="" alt="Living room">
+          <img data-src="images/meadow/kitchen1.jpg" src="" alt="Kitchen">
+          <img data-src="images/meadow/kitchen2.jpg" src="" alt="Kitchen">
+          <img data-src="images/meadow/laundry.jpg" src="" alt="Laundry">
+        </div>
+        <script src="javascripts/ideal-image-slider.min.js"></script>
+        <!-- Create your slider -->
+        <script>
+          new IdealImageSlider.Slider('#slider');
+        </script>
+      </section>
+      <section>
         <h3>Address</h3>
         <p>2517 Meadow Drive <br />Lafayette, IN 47909</p>
 
         <h3>Rent Payments</h3>
         <p>Terrahaven LLC <br />PO Box 3913 <br />West Lafayette, IN 47996</p>
-        <p> We now offer an online system to automatically pay your rent payments each month.  There is no charge for this service if you use your
-          checking account to make your payment. There is a 2.75% fee each month when using a credit card.  This option helps prevent late fees and saves you
+        <p> We now offer an online system to automatically pay your rent payments each month. There is no charge for this service if you use your
+          checking account to make your payment. There is a 2.75% fee each month when using a credit card. This option helps prevent late fees and saves you
           the time and expense to mail your check each month.
 
         <h3>Natural Gas Service</h3>
@@ -46,15 +60,13 @@
         <p>Trash pickup is every Thursday and there is no charge for regular pickup.</p>
 
         <h3>Renters Insurance</h3>
-        <p>Purchase Renters Insurance for $200,000 and <strong>list Terrahaven LLC as additionally insured</strong>. Normally your auto insurance agent
-          can offer you the best price. If you or your agent has any questions, please give me a call. This normally costs between $10 - $15
-          dollars per month.  It may be cheaper if you get the standard rate of $300,000 coverage.
-        </p>
+        <p>Renters Insurance for $300,000 is required for this house and list <strong>Terrahaven LLC as additionally insured</strong>.
+          Normally your auto insurance agent can offer you the best price. This normally costs between $10 - $15 dollars per month.</p>
       </section>
     </div>
     <footer>
-      <!--<p>Project maintained by <a href="https://github.com/rcarroll380">rcarroll380</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>-->
+      <p>Terrahaven LLC 765-237-3546</p>
+      <!--<p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>-->
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
